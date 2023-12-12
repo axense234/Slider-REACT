@@ -1,6 +1,6 @@
 # **Reviews Slider**
 
-A simple React Project that focuses on the basics of react,especially the useEffect hook by building a slider version of a previous project,Reviews React.
+A simple React Project that focuses on the basics of react,especially the useEffect hook by building a slider version of a previous project, Reviews React.
 
 ## **Description**
 
@@ -31,6 +31,8 @@ npm start
 
 ## **Version History**
 
+- 0.3
+  - Analyzed the code to gather to-do's and changed a few things around.
 - 0.2
   - Actually introduced the slider functionality with auto reviews
   - See [commit change](https://github.com/axense234/Slider-REACT/commits/master) or See [release history](https://github.com/axense234/Slider-REACT/releases)

@@ -1,14 +1,12 @@
 // React
 import { useEffect, useState } from "react";
 // Data
-import { people } from "./data";
+import { people,AUTO_REVIEWS_DELAY_BETWEEN,AUTO_REVIEWS_DELAY_START } from "./data";
 // React Icons
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 // Components
 import Review from "./Review";
 
-const AUTO_REVIEWS_DELAY_START = 3;
-const AUTO_REVIEWS_DELAY_BETWEEN = 2;
 
 const Main = () => {
   const [reviewId, setReviewId] = useState(0);
