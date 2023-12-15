@@ -11,6 +11,8 @@ A simple React Project that focuses on the basics of react,especially the useEff
 ### Dependencies
 
 - Check package.json for details.
+- Git
+- Docker(if you want to test the project using Docker)
 
 ### Installing
 
@@ -20,9 +22,20 @@ git clone https://github.com/axense234/Slider-REACT.git
 
 ### Executing program
 
+- **Using NPM**
+
 ```
 npm install
 npm start
+```
+
+- **Using Docker**
+
+```
+docker build -t slider-react:0.3.0 .
+docker stop slider-react-app
+docker rm slider-react-app
+docker run -d -p 3000:3000 --name slider-react-app slider-react:0.3.0
 ```
 
 ## **Authors**
